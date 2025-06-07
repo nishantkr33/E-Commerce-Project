@@ -6,6 +6,7 @@ import razorpay from 'razorpay'
 // global variables
 const currency = 'usd'
 const deliveryCharge = 10
+const url = 'https://e-com-frontend-4sqo.onrender.com/';
 
 // gateway initialize
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
